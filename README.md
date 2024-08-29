@@ -1,5 +1,5 @@
-<div align="center">
-  <h1>Proyecto X</h1>
+<div id="caratula">
+  <h1 align="center">Proyecto X</h1>
 </div>
 
 
