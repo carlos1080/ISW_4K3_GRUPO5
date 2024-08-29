@@ -19,31 +19,13 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y tree
 
       - name: Generate tree structure
-        run: tree -L 2 > tree.txt
+        run: tree -L 2 > structure.txt
 
       - name: Update README.md
         run: |
-          # Crear un archivo temporal para el README.md actualizado
-          awk '
-          # Eliminar el contenido entre las etiquetas, si existen
-          /<!-- START TREE STRUCTURE -->/{flag=1; next}
-          /<!-- END TREE STRUCTURE -->/{flag=0; next}
-          !flag' README.md > temp.md
 
-          # Insertar las etiquetas y el nuevo contenido después de la sección "## Estructura del repositorio"
-          awk '
-          # Buscar la línea que contiene "## Estructura del repositorio"
-          /## Estructura del repositorio/{print; print "<!-- START TREE STRUCTURE -->"; next}
-          /<!-- START TREE STRUCTURE -->/{flag=1; next}
-          /<!-- END TREE STRUCTURE -->/{flag=0; next}
-          !flag' temp.md > updated.md
-
-          # Agregar el contenido del árbol y las etiquetas de cierre
-          echo "<!-- END TREE STRUCTURE -->" >> updated.md
-          cat tree.txt >> updated.md
-
-          # Reemplazar README.md con el archivo actualizado
-          mv updated.md README.md
+         sed -i '/##Estructura del repositorio/,/##/{//!d}' README.md
+         sed -i '/##Estructura del repositorio/r structure.txt' README.md
 
           # Configurar git, hacer commit y push
           git config --global user.name 'github-actions'
