@@ -26,7 +26,7 @@ Adentrándanos en la última etapa de la carrera, nos topamos con un nuevo desaf
 
 Lo que queremos lograr con este trabajo práctico es aprender a gestionar la configuracion de software mediante el uso de algún repositorio como lo es Github o Gitlab.
 
-Recordamos que SCM es una actividad paraguas, transversal a todo el proyecto, relevante para el producto a lo largo de su ciclo de vida. Su ** propósito** es establecer y mantener la integridad de los productos de software a lo largo de su ciclo de vida.
+Recordamos que SCM es una actividad paraguas, transversal a todo el proyecto, relevante para el producto a lo largo de su ciclo de vida. Su **propósito** es establecer y mantener la integridad de los productos de software a lo largo de su ciclo de vida.
 
 Es importante aclarar que como grupo consideramos que la riqueza de este trabajo práctico es mantener en uso y en constante actualizacion el repositorio, ya que no tendría sentido realizar un commit cada uno y dar por finalizado la entrega.
  
