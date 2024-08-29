@@ -45,6 +45,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 - **Ejemplo:** `filminas_clase_1_SCM.pdf ` 
 
 
+<!-- END TREE STRUCTURE -->
 <!-- START TREE STRUCTURE -->
 .
 ├── Filminas
