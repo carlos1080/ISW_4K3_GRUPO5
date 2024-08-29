@@ -29,6 +29,17 @@ Lo que queremos lograr con este trabajo práctico es aprender a gestionar la con
 Recordamos que SCM es una actividad paraguas, transversal a todo el proyecto, relevante para el producto a lo largo de su ciclo de vida. Su **propósito** es establecer y mantener la integridad de los productos de software a lo largo de su ciclo de vida.
 
 Es importante aclarar que como grupo consideramos que la riqueza de este trabajo práctico es mantener en uso y en constante actualizacion el repositorio, ya que no tendría sentido realizar un commit cada uno y dar por finalizado la entrega.
+
+## Estructura del repositorio:
+.
+├── Filminas
+│   ├── filminas_clase_1_SCM.pdf
+│   └── filminas_clase_2_UserStories.pdf
+├── Imagenes
+│   └── UTN_logo.jpg
+└── README.md
+
+
  
 
 ## Reglas de Nombrado
