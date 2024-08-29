@@ -2,7 +2,7 @@
   <h1 align="center">Universidad Tecnologica Nacional</h1>
   <h2 align="center">Ingeniería y Calidad de Software</h2>
   <p align="center">
-  <img src="./Imagenes/logoUTN.png" alt="Logo del Proyecto" width="200">
+  <img src="./Imagenes/UTN_logo.jpg" alt="Logo del Proyecto" width="200">
   </p>
 
 </div>
