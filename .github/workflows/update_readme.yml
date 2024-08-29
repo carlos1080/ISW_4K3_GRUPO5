@@ -3,7 +3,7 @@ name: Update Repository Tree
 on:
   push:
     branches:
-      - main  # O la rama que estés utilizando
+      - main
 
 jobs:
   update-tree:
@@ -12,16 +12,17 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
 
       - name: Install tree
         run: sudo apt-get install tree
 
       - name: Generate tree structure
-        run: tree -L 2 > tree.txt  # Ajusta el nivel de profundidad si es necesario
+        run: tree -L 2 > tree.txt
 
       - name: Update README.md
         run: |
-          # Reemplazar el contenido entre los marcadores
           sed -i '/<!-- START TREE STRUCTURE -->/,+1d' README.md
           sed -i '/<!-- END TREE STRUCTURE -->/d' README.md
           echo "<!-- START TREE STRUCTURE -->" >> README.md
@@ -32,3 +33,5 @@ jobs:
           git add README.md
           git commit -m "Actualiza la estructura del repositorio"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
