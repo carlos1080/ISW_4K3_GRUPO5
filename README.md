@@ -32,7 +32,8 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 ## Estructura del repositorio:
 
-<!-- START DIRECTORY TREE -->
+<!-- START TREE STRUCTURE -->
+<!-- END TREE STRUCTURE -->
 
 ## Reglas de Nombrado
 
