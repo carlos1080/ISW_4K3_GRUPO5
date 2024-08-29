@@ -1,7 +1,7 @@
 <div>
   <h1 align="center">Universidad Tecnologica Nacional</h1>
   <h2 align="center">Ingeniería y Calidad de Software</h2>
-  <br>
+  ![logoUTN](./Imagenes/logoUTN.png)
 </div>
 
 ## Año: 2024
