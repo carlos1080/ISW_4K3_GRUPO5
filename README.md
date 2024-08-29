@@ -31,6 +31,7 @@ Recordamos que SCM es una actividad paraguas, transversal a todo el proyecto, re
 Es importante aclarar que como grupo consideramos que la riqueza de este trabajo práctico es mantener en uso y en constante actualizacion el repositorio, ya que no tendría sentido realizar un commit cada uno y dar por finalizado la entrega.
 
 ## Estructura del repositorio:
+```
 .
 ├── Filminas
 │   ├── filminas_clase_1_SCM.pdf
@@ -38,6 +39,10 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 ├── Imagenes
 │   └── UTN_logo.jpg
 └── README.md
+
+
+```
+
 
 
  
