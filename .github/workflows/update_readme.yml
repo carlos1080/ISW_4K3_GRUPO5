@@ -18,8 +18,8 @@ jobs:
       run: sudo apt-get install -y tree
     - name: Generate and Update Directory Structure in README.md
       run: |
-        chmod +x ./Scripts/generate_tree.sh
-        ./Scripts/generate_tree.sh
+        chmod +x generate_tree.sh
+        ./generate_tree.sh
     - name: Commit changes
       run: |
         git config --global user.name "github-actions[bot]"
