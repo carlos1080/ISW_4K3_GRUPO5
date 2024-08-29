@@ -3,7 +3,13 @@
   <h2 align="center">Ingeniería y Calidad de Software</h2>
 </div>
 
-## **Año:** 2024
+## Año: 2024
+## Curso: 4k3
+## Docentes: 
+
+- Docente 1
+- Docente 2
+- Docente 3
 
 
 
