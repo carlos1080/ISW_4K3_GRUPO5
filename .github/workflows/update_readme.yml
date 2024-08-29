@@ -25,17 +25,25 @@ jobs:
         run: |
           # Crear un archivo temporal para el README.md actualizado
           awk '
-          /<!-- START TREE STRUCTURE -->/{flag=1; next}
-          /<!-- END TREE STRUCTURE -->/{flag=0; next}
+          # Eliminar solo el contenido entre las etiquetas, pero mantener las etiquetas y las líneas vacías
+          /<!-- START TREE STRUCTURE -->/{flag=1; print; next}
+          /<!-- END TREE STRUCTURE -->/{flag=0; print}
           !flag' README.md > temp.md
 
-          # Agregar las etiquetas y el nuevo contenido
-          echo "<!-- START TREE STRUCTURE -->" >> temp.md
-          cat tree.txt >> temp.md
-          echo "<!-- END TREE STRUCTURE -->" >> temp.md
+          # Insertar las etiquetas y el nuevo contenido después de la sección "## Estructura del repositorio"
+          awk '
+          # Imprimir la línea "## Estructura del repositorio" y las etiquetas
+          /## Estructura del repositorio/{print; print "<!-- START TREE STRUCTURE -->"; next}
+          /<!-- START TREE STRUCTURE -->/{flag=1; next}
+          /<!-- END TREE STRUCTURE -->/{flag=0; next}
+          !flag' temp.md > updated.md
 
-          # Reemplazar README.md con el archivo temporal
-          mv temp.md README.md
+          # Agregar el contenido del árbol y las etiquetas de cierre
+          echo "<!-- END TREE STRUCTURE -->" >> updated.md
+          cat tree.txt >> updated.md
+
+          # Reemplazar README.md con el archivo actualizado
+          mv updated.md README.md
 
           # Configurar git, hacer commit y push
           git config --global user.name 'github-actions'
