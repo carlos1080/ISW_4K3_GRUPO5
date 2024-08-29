@@ -1,5 +1,12 @@
-# el_mejor_grupo
-Esta es una prueba hasta que nos asignen un numero de grupo
+#ISW_4K3_GRUPO5
+
+##¿Quienes Somos?
+
+- **Carlos Nayi - 90406**
+
+
+
+ 
 
 ##Reglas de Nombrado
 
