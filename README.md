@@ -340,6 +340,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 └── tree.txt
 
 2 directories, 6 files
+<!-- END TREE STRUCTURE -->
 <!-- START TREE STRUCTURE -->
 .
 ├── Filminas
