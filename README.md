@@ -1,10 +1,9 @@
-<div id="caratula">
+<div>
   <h1 align="center">Universidad Tecnologica Nacional</h1>
   <h2 align="center">Ingeniería y Calidad de Software</h2>
-  <h3> **Año: ** 2024</h3>
-  <h3> **Curso: **</h3>
-  <h3> **Docentes: **</h3>
-  </div>
+</div>
+
+## **Año: ** 2024
 
 
 
