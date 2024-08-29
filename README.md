@@ -15,7 +15,7 @@
 
 ##Reglas de Nombrado
 
-### **1. Filminas **
+### **1. Filminas**
 
 - **Formato:** `filminas_clase_<numero>_<tema>.pdf `
 
