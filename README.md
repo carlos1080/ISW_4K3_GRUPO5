@@ -3,7 +3,7 @@
   <h2 align="center">Ingeniería y Calidad de Software</h2>
 </div>
 
-## **Año: ** 2024
+## **Año:** 2024
 
 
 
