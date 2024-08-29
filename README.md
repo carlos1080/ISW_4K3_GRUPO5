@@ -15,10 +15,10 @@
 - Docente 2
 - Docente 3
 
+## Integrantes del grupo: 
 
-
-- **Carlos Nayi - 90406**
-
+- Carlos Nayi - 90406
+- 
 
 
  
