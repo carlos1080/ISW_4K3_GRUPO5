@@ -25,14 +25,14 @@ jobs:
         run: |
           # Crear un archivo temporal para el README.md actualizado
           awk '
-          # Eliminar solo el contenido entre las etiquetas, pero mantener las etiquetas y las líneas vacías
-          /<!-- START TREE STRUCTURE -->/{flag=1; print; next}
-          /<!-- END TREE STRUCTURE -->/{flag=0; print}
+          # Eliminar el contenido entre las etiquetas, si existen
+          /<!-- START TREE STRUCTURE -->/{flag=1; next}
+          /<!-- END TREE STRUCTURE -->/{flag=0; next}
           !flag' README.md > temp.md
 
           # Insertar las etiquetas y el nuevo contenido después de la sección "## Estructura del repositorio"
           awk '
-          # Imprimir la línea "## Estructura del repositorio" y las etiquetas
+          # Buscar la línea que contiene "## Estructura del repositorio"
           /## Estructura del repositorio/{print; print "<!-- START TREE STRUCTURE -->"; next}
           /<!-- START TREE STRUCTURE -->/{flag=1; next}
           /<!-- END TREE STRUCTURE -->/{flag=0; next}
@@ -45,16 +45,12 @@ jobs:
           # Reemplazar README.md con el archivo actualizado
           mv updated.md README.md
 
-          # Configurar git y hacer commit si hay cambios
+          # Configurar git, hacer commit y push
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add README.md
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Actualiza la estructura del repositorio"
-            git pull origin main
-            git push origin main
-          fi
+          git commit -m "Actualiza la estructura del repositorio"
+          git pull origin main
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
