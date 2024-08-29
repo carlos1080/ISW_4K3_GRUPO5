@@ -1,0 +1,29 @@
+name: Update README with Directory Structure
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      name: Checkout repository
+    - name: Install tree
+      run: sudo apt-get install -y tree
+    - name: Generate and Update Directory Structure in README.md
+      run: |
+        chmod +x generate_tree.sh
+        ./Scripts/generate_tree.sh
+    - name: Commit changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update README with directory structure"
+        git push
