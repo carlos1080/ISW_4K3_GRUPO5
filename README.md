@@ -32,8 +32,6 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 ## Estructura del repositorio:
 
-<!-- START TREE STRUCTURE -->
-<!-- END TREE STRUCTURE -->
 
 ## Reglas de Nombrado
 
@@ -42,3 +40,16 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 - **Formato:** `filminas_clase_<numero>_<tema>.pdf `
 
 - **Ejemplo:** `filminas_clase_1_SCM.pdf ` 
+<!-- START TREE STRUCTURE -->
+.
+├── Filminas
+│   ├── filminas_clase_1_SCM.pdf
+│   └── filminas_clase_2_UserStories.pdf
+├── Imagenes
+│   └── UTN_logo.jpg
+├── README.md
+├── test_file
+└── tree.txt
+
+2 directories, 6 files
+<!-- END TREE STRUCTURE -->
