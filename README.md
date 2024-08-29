@@ -1,9 +1,12 @@
 <div id="caratula">
-  <h1 align="center">Proyecto X</h1>
-</div>
+  <h1 align="center">Universidad Tecnologica Nacional</h1>
+  <h2 align="center">Ingeniería y Calidad de Software</h2>
+  <h3> **Año: ** 2024</h3>
+  <h3> **Curso: **</h3>
+  <h3> **Docentes: **</h3>
+  </div>
 
 
-## ¿Quienes Somos?
 
 - **Carlos Nayi - 90406**
 
