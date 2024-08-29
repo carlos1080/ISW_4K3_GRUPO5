@@ -22,9 +22,12 @@ jobs:
         run: tree -L 2 > tree.txt
 
       - name: Update README.md
+
         run: |
-          sed -i '/<!-- START TREE STRUCTURE -->/,+1d' README.md
-          sed -i '/<!-- END TREE STRUCTURE -->/d' README.md
+          # Eliminar todo el contenido entre los marcadores
+          awk '/<!-- START TREE STRUCTURE -->/{flag=1; next} /<!-- END TREE STRUCTURE -->/{flag=0} !flag' README.md > temp.md
+          mv temp.md README.md
+          # Agregar la nueva estructura del árbol
           echo "<!-- START TREE STRUCTURE -->" >> README.md
           cat tree.txt >> README.md
           echo "<!-- END TREE STRUCTURE -->" >> README.md
@@ -34,4 +37,5 @@ jobs:
           git commit -m "Actualiza la estructura del repositorio"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
