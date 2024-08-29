@@ -45,12 +45,16 @@ jobs:
           # Reemplazar README.md con el archivo actualizado
           mv updated.md README.md
 
-          # Configurar git, hacer commit y push
+          # Configurar git y hacer commit si hay cambios
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add README.md
-          git commit -m "Actualiza la estructura del repositorio"
-          git pull origin main
-          git push origin main
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Actualiza la estructura del repositorio"
+            git pull origin main
+            git push origin main
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
