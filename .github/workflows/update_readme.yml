@@ -16,28 +16,28 @@ jobs:
           token: ${{ secrets.REPO_TOKEN }}
 
       - name: Install tree
-        run: sudo apt-get install tree
+        run: sudo apt-get update && sudo apt-get install -y tree
 
       - name: Generate tree structure
         run: tree -L 2 > tree.txt
 
       - name: Update README.md
         run: |
-          # Utiliza awk para crear un archivo temporal sin el contenido antiguo
+          # Crear un archivo temporal para el README.md actualizado
           awk '
-          /<!-- START TREE STRUCTURE -->/{flag=1; print; next}
-          /<!-- END TREE STRUCTURE -->/{flag=0; print}
+          /<!-- START TREE STRUCTURE -->/{flag=1; next}
+          /<!-- END TREE STRUCTURE -->/{flag=0; next}
           !flag' README.md > temp.md
 
-          # Agrega el contenido nuevo y las etiquetas
+          # Agregar las etiquetas y el nuevo contenido
           echo "<!-- START TREE STRUCTURE -->" >> temp.md
           cat tree.txt >> temp.md
           echo "<!-- END TREE STRUCTURE -->" >> temp.md
 
-          # Reemplaza el README.md con el archivo temporal
+          # Reemplazar README.md con el archivo temporal
           mv temp.md README.md
 
-          # Configura git y haz commit y push
+          # Configurar git, hacer commit y push
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add README.md
