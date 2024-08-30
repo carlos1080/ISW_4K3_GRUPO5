@@ -15,7 +15,7 @@ jobs:
 
       - name: Check for diff and commit changes if any
         env:
-          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "$(git diff --ignore-space-at-eol . | wc -l)" -gt "0" ]; then
             echo "Detected diff. Committing changes..."
