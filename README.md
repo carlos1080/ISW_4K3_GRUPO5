@@ -11,14 +11,17 @@
 ## Curso: 4k3
 ## Docentes: 
 
-- Docente 1
-- Docente 2
-- Docente 3
+- Laura Ines Covaro
+- Maria Cecilia Massano
+- Georgina Gisela Gonzalez
 
 ## Integrantes del grupo: 
 
 - Carlos Nayi - 90406
-- 
+- Genaro Bergesio - 83464
+- Marcelo Cuello -
+- Agustin Liendo -
+- Tomas Galeano -
 
 ## Introducción:
 
