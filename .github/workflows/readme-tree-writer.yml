@@ -1,14 +1,16 @@
-name: Check README on push
+name: Check tree diff
 
 on: push
 
 jobs:
-  readme-tree-writer:
+  sample-workflow:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Write tree outputs to README
-        uses: shirakiya/readme-tree-writer@v2.0.2
+      - name: Write tree outputs to README.md
+        uses: shirakiya/readme-tree-writer@v1
+        with:
+          config_path: .github/readmetreerc.yml
       - name: Check diff
         run: |
           if [ "$(git diff --ignore-space-at-eol . | wc -l)" -gt "0" ]; then
