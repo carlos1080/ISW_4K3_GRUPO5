@@ -35,12 +35,8 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 
 ## Otra seccion
-
-
-<<<<<<< HEAD
 - **Formato:** `filminas_clase_<numero>_<tema>.pdf `
 
 - **Ejemplo:** `filminas_clase_1_SCM.pdf ` 
 
-=======
->>>>>>> 9b3682e48535f705c01c1a4e0b41a10d366d29c5
+
