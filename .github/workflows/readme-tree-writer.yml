@@ -24,3 +24,4 @@ jobs:
             git push
           else
             echo "No changes detected."
+          fi  # <-- Es importante que este 'fi' esté presente
