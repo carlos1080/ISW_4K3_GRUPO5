@@ -30,20 +30,7 @@ Recordamos que SCM es una actividad paraguas, transversal a todo el proyecto, re
 
 Es importante aclarar que como grupo consideramos que la riqueza de este trabajo práctico es mantener en uso y en constante actualizacion el repositorio, ya que no tendría sentido realizar un commit cada uno y dar por finalizado la entrega.
 
-# Tree
-
-```
-.
-├── Filminas
-│   ├── filminas_clase_1_SCM.pdf
-│   └── filminas_clase_2_UserStories.pdf
-├── Imagenes
-│   └── UTN_logo.jpg
-├── README.md
-├── test.txt
-└── test_file
-
-```
+## Tree
 
 ## Otra seccion
 - **Formato:** `filminas_clase_<numero>_<tema>.pdf `
