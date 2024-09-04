@@ -2,7 +2,7 @@
   <h1 align="center">Universidad Tecnologica Nacional</h1>
   <h2 align="center">Ingeniería y Calidad de Software</h2>
   <p align="center">
-  <img src="./Imagenes/UTN_logo.jpg" alt="Logo del Proyecto" width="200">
+  <img src="./Imagenes/IMG_UTN_logo.jpg" alt="Logo del Proyecto" width="200">
   </p>
 
 </div>
@@ -61,8 +61,22 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 | Item de configuración | Regla de nombrado | Ejemplo | Ubicación Física |
 |-----------|-----------|-----------|-----------|
-| Filminas | filminas_clase_\<N>_\<Tema>.pdf | filminas_clase_1_SCM.pdf | /Filminas |
+| Bibliografía | Biblio_\<N>_\<NombreBiblio>.pdf | \Biblio_U1_Cynefin Mini book.pdf | /Bibliografia/U<N> |
+| Filminas | PPT_\<N>_\<Tema>.pdf | filminas_clase_1_SCM.pdf | /Filminas |
+| Imagenes | IMG_\<Categoria>_\<NombreImagen>.\<extImg> | ISW_encabezado.png | /Imagenes |
+| NotasDeClase | NC_\<Fecha>-\<DiaCursado>-\<N>.\<extImg> | NC_0823-V-1.jpeg | /NotasDeClase|
+| Guias | Guía_\<Descripción>.pdf | 0823-V-1.jpeg | /NotasDeClase|
 
+## Glosario
+
+| Sigla | Significado |
+|--|--|
+| \<N> | Número de item (1,2,3…) |
+| \<Tema> | Tema de clase o trabajo práctico dado, como aparece en la modalidad académica | 
+| \<NombreBiblio>  | Título de la bibliografía |
+| \<Fecha> | Fecha en el formato mm-dd en el que fue tomado el elemento|
+| \<DiaCursado> | Día en el formato (M/V) en el que fue tomado el elemento, donde M y V referencian los días de cursado Miércoles y Viernes |
+| \<extImg> | Etensiones de archivos de imágenes, tipicamente como jpg, png, jpeg... |
 
 ## Baseline:
 - Se utilizan etiquetas para marcar las baselines
