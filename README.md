@@ -59,10 +59,9 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 ## Reglas de Nombrado
 
-| Item de configuración | Regla de nombrado | Ejemplo |
-|-----------|-----------|-----------|
-| Filminas | filminas_clase_<numero>_<tema>.pdf | filminas_clase_1_SCM.pdf |
-
+| Item de configuración | Regla de nombrado | Ejemplo | Ubicación Física |
+|-----------|-----------|-----------|-----------|
+| Filminas | filminas_clase_\<N>_\<Tema>.pdf | filminas_clase_1_SCM.pdf | /Filminas |
 
 
 ## Baseline:
