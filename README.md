@@ -42,9 +42,7 @@
 │   ├── ISW_encabezado.png
 │   ├── UTN_encabezado.png
 │   └── UTN_logo.jpg
-├── README.md
-├── test.txt
-└── test_file
+└── README.md
 
 ```
 
