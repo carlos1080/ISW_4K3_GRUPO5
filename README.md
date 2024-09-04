@@ -37,6 +37,8 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 ```
 .
+├── Bibliografia
+│   └── test.txt
 ├── Filminas
 │   ├── filminas_clase_1_SCM.pdf
 │   └── filminas_clase_2_UserStories.pdf
