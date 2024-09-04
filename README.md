@@ -85,7 +85,7 @@
     │   ├── Guia_ISW_Guia de Trabajos Practicos Resueltos.pdf
     │   └── Guia_ISW_Lineamientos para trabajos de investigación 2024 2C.pdf
     └── Resoluciones
-        └── test.txt
+        └── TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt
 
 ```
 
