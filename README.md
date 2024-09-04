@@ -28,7 +28,40 @@
 ```
 .
 ├── Bibliografia
-│   └── test.txt
+│   ├── U1
+│   │   ├── Biblio_U1_Cynefin Mini book.pdf
+│   │   ├── Biblio_U1_Ingenieria de Software - Ian Somerville - 9 edicion - español.pdf
+│   │   ├── Biblio_U1_McConnell, Steve - Software estimation demystifying the black art-Microsoft Press (2006) .pdf
+│   │   ├── Biblio_U1_No Silver Bullet Essence and Accidents of Software.pdf
+│   │   ├── Biblio_U1_Software Engineering Body of Knowledge.pdf
+│   │   ├── Biblio_U1_The Mythical Man-Month_ Essays on Software Engineeri.pdf
+│   │   └── Biblio_U1_ingenieria del software - roger pressman 7ma edición.pdf
+│   ├── U2
+│   │   ├── Biblio_U2_A User Story Primer.pdf
+│   │   ├── Biblio_U2_Addison-Wesley,.User.Stories.Applied.For.Agile.Software.Deve.pdf
+│   │   ├── Biblio_U2_Addison.Wesley.-.User.Stories.Applied.for.Agile.Software.Dev.pdf
+│   │   ├── Biblio_U2_Agile Estimating and Planning Chapter 6.pdf
+│   │   ├── Biblio_U2_Agile Estimating and Planning.pdf
+│   │   ├── Biblio_U2_Agile Retrospectives_ Making Good Teams Great ( PDFDrive ).pdf
+│   │   ├── Biblio_U2_Kanban Esencial Condensado.pdf
+│   │   ├── Biblio_U2_La guía oficial del método Kanban.pdf
+│   │   ├── Biblio_U2_Lean UX - Applying Lean Principles to Improve User Experience.pdf
+│   │   ├── Biblio_U2_Lean from the trenches – An example of Kanban for large software project.pdf
+│   │   ├── Biblio_U2_The Nexus Scrum Guide 2020.pdf
+│   │   ├── Biblio_U2_The Scrum Guide 2020.pdf
+│   │   ├── Biblio_U2_Understanding Design Thinking, Lean and Agile.pdf
+│   │   └── Biblio_U2_scrum-y-xp-desde-las-trincheras.pdf
+│   ├── U3
+│   │   ├── Biblio_U3_Agile SCM.pdf
+│   │   ├── Biblio_U3_Continuous Integration, Delivery and Deployment-A Systematic Review on Approaches, Tools, Challenges and Practices.pdf
+│   │   ├── Biblio_U3_Little Book of Configuration Management.pdf
+│   │   └── Biblio_U3_Paper  - SCM - Bersoff.pdf
+│   └── U4
+│       ├── Biblio_U4_AGILE TESTING - A PRACTICAL GUIDE FOR TESTERS AND AGILE TEAMS.pdf
+│       ├── Biblio_U4_Introducción a las Pruebas de Sistemas de Información.pdf
+│       ├── Biblio_U4_SPICE Project, Consolidated product. Software Process Assessment – Part 1 Concepts and introductory guide.pdf
+│       ├── Biblio_U4_Software Testing - A Craftsmans Approach.pdf
+│       └── Biblio_U4_The Art of Software Testing 3 edition.pdf
 ├── Filminas
 │   ├── filminas_clase_1_SCM.pdf
 │   └── filminas_clase_2_UserStories.pdf
@@ -42,7 +75,9 @@
 │   ├── 0828-M-1.jpeg
 │   ├── 0828-M-2.jpeg
 │   └── 0828-M-3.jpeg
-└── README.md
+├── README.md
+└── TPs
+    └── test.txt
 
 ```
 
