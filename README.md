@@ -63,21 +63,29 @@
 │       ├── Biblio_U4_Software Testing - A Craftsmans Approach.pdf
 │       └── Biblio_U4_The Art of Software Testing 3 edition.pdf
 ├── Filminas
-│   ├── filminas_clase_1_SCM.pdf
-│   └── filminas_clase_2_UserStories.pdf
+│   ├── PPT_1_SCM.pdf
+│   └── PPT_2_UserStories.pdf
 ├── Imagenes
-│   ├── ISW_encabezado.png
-│   ├── UTN_encabezado.png
-│   └── UTN_logo.jpg
+│   ├── IMG_ISW_encabezado.png
+│   ├── IMG_UTN_encabezado.png
+│   └── IMG_UTN_logo.jpg
 ├── NotasDeClase
-│   ├── 0823-V-1.jpeg
-│   ├── 0823-V-2.jpeg
-│   ├── 0828-M-1.jpeg
-│   ├── 0828-M-2.jpeg
-│   └── 0828-M-3.jpeg
+│   ├── NC_0823_V_1.jpeg
+│   ├── NC_0823_V_2.jpeg
+│   ├── NC_0828_M_1.jpeg
+│   ├── NC_0828_M_2.jpeg
+│   └── NC_0828_M_3.jpeg
 ├── README.md
 └── TPs
-    └── test.txt
+    ├── Enunciados
+    │   ├── TP1_Enunciado_2024.pdf
+    │   └── TP4_Enunciado_2024.pdf
+    ├── Guias
+    │   ├── Guia_ISW_Enunciados TP evaluables 2024 2doCuat.pdf
+    │   ├── Guia_ISW_Guia de Trabajos Practicos Resueltos.pdf
+    │   └── Guia_ISW_Lineamientos para trabajos de investigación 2024 2C.pdf
+    └── Resoluciones
+        └── test.txt
 
 ```
 
