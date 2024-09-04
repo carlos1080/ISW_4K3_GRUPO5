@@ -108,8 +108,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 | Filminas | PPT_\<N>_\<Tema>.pdf | filminas_clase_1_SCM.pdf | /Filminas |
 | Imagenes | IMG_\<Categoria>_\<NombreImagen>.\<extImg> | ISW_encabezado.png | /Imagenes |
 | NotasDeClase | NC_\<Fecha>_\<DiaCursado>_\<N>.\<extImg> | NC_0823_V_1.jpeg | /NotasDeClase|
-| Guias | Guía_\<Descripción>.pdf | Guia_ISW_Enunciados TP evaluables 2024 2doCuat.pdf
- | /TPs/Guias|
+| Guias | Guía_\<Descripción>.pdf | Guia_ISW_Enunciados TP evaluables 2024 2doCuat.pdf| /TPs/Guias|
 | Enunciados | TP\<N>_Enunciado_2024.pdf | TP1_Enunciado_2024.pdf | /TPs/Enunciados|
 | Resoluciones | TP\<N>_\<Tema>_RES_G5_2024.\<ext>  | TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt | /TPs/Resoluciones|
 
