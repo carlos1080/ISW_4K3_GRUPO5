@@ -62,8 +62,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 | Item de configuración | Regla de nombrado | Ejemplo |
 |-----------|-----------|-----------|
 | Filminas | filminas_clase_<numero>_<tema>.pdf | filminas_clase_1_SCM.pdf |
-|-----------|-----------|-----------|
-| Bibliografia | bibliografias_<nombre_libro>_<unidad_relacionada>.pdf | bibliografías_"SoftwareTesting"_"Testing de software" |
+
 
 
 
