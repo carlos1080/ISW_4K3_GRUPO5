@@ -75,6 +75,9 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
   - De especificación DE (Requerimientos, Diseño)
   - De productos que han pasado por un control de calidad definido previamente
 
+**¿En qué nos basamos como grupo para establecer nuestra baseline?**
+
+Antes de cada entrega formal de un repositorio, en esta caso una entrega de trabajo práctico, en la que debemos dejar  marcado de alguna manera nuestro prograso actual, para luego en otra entrega de otro trabajo practico generar otra baseline y así poder comparar el proyecto en dos instancias de tiempo distintas.
 
 
 
