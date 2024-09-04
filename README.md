@@ -43,6 +43,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 │   ├── filminas_clase_1_SCM.pdf
 │   └── filminas_clase_2_UserStories.pdf
 ├── Imagenes
+│   ├── UTN_encabezado.png
 │   └── UTN_logo.jpg
 ├── README.md
 ├── test.txt
