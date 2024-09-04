@@ -55,4 +55,9 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 
 - **Ejemplo:** `filminas_clase_1_SCM.pdf ` 
 
+| Item de configuración | Regla de nombrado | Ejemplo |
+|-----------|-----------|-----------|
+| Filminas | filminas_clase_<numero>_<tema>.pd | filminas_clase_1_SCM.pdf |
+
+
 
