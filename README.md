@@ -36,6 +36,12 @@
 │   ├── ISW_encabezado.png
 │   ├── UTN_encabezado.png
 │   └── UTN_logo.jpg
+├── NotasDeClase
+│   ├── 0823-V-1.jpeg
+│   ├── 0823-V-2.jpeg
+│   ├── 0828-M-1.jpeg
+│   ├── 0828-M-2.jpeg
+│   └── 0828-M-3.jpeg
 └── README.md
 
 ```
