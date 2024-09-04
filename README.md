@@ -23,12 +23,6 @@
 - Agustin Liendo -
 - Tomas Galiano - 85824
 
-
-
-
-
-
-
 ## Tree
 
 ```
@@ -62,6 +56,26 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 | Item de configuración | Regla de nombrado | Ejemplo |
 |-----------|-----------|-----------|
 | Filminas | filminas_clase_<numero>_<tema>.pdf | filminas_clase_1_SCM.pdf |
+
+
+
+## Baseline:
+- Se utilizan etiquetas para marcar las baselines
+
+- No debemos confundir con la versión del producto
+
+- Entonces una línea base es una configuración que ha sido revisada formalmente y sobre la que se ha llegado un acuerdo
+
+- Sirve como base para desarrollos posteriores y puede cambiarse sólo a través  de un procedimiento formal de control de cambios
+
+- Permiten ir atrás en el tiempo y reproducir el entorno de desarrollo en un momento dado del proyecto
+
+- Las líneas base puede ser:
+
+  - De especificación DE (Requerimientos, Diseño)
+  - De productos que han pasado por un control de calidad definido previamente
+
+
 
 
 
