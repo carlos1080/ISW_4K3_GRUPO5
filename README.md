@@ -48,8 +48,6 @@
 
 ```
 
-
-
 ## Introducción:
 
 Adentrándanos en la última etapa de la carrera, nos topamos con un nuevo desafío, que es esta materia. Sin embargo, como grupo tenemos bien en claro que debemos aprovecharla al máximo, porque realmente creemos que nos va a aportar conocimientos útilies para nuestra vida laboral.
