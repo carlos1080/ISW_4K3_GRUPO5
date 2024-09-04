@@ -64,7 +64,20 @@
 │       └── Biblio_U4_The Art of Software Testing 3 edition.pdf
 ├── Filminas
 │   ├── PPT_1_SCM.pdf
-│   └── PPT_2_UserStories.pdf
+│   ├── PPT_2_UserStories.pdf
+│   ├── PPT_3_EstimacionesAgiles.pdf
+│   ├── PPT_4_GestionProductosSoftware.pdf
+│   ├── PPT_5_ComponentesProyectoSW.pdf
+│   ├── PPT_6_EstimacionesSW.pdf
+│   ├── PPT_7_PlanificacionReleaseSprintMetricas.pdf
+│   ├── PPT_8_TestingSoftware.pdf
+│   ├── PPT_9_TestingCajaNegra.pdf
+│   ├── PPT_10_LeanKanban.pdf
+│   ├── PPT_11_MetricasEnDiferentesEnfoques.pdf
+│   ├── PPT_12_PPQAIntro.pdf
+│   ├── PPT_13_RevisionesTecnicas.pdf
+│   ├── PPT_14_AuditoriasSW.pdf
+│   └── PPT_15_Retrospectivas.pdf
 ├── Imagenes
 │   ├── IMG_ISW_encabezado.png
 │   ├── IMG_UTN_encabezado.png
