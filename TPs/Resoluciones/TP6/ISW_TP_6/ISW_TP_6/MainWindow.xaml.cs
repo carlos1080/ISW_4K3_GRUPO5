@@ -33,12 +33,12 @@ namespace ISW_TP_6
         private void HabilitarPantallaCotizacion()
         {
             Pantalla = new PantallaAceptarCotizacion();
-            FormGrid.Children.Clear();
-            FormGrid.Children.Add(Pantalla);
+            FormGrid.Content = null;
+            FormGrid.Content = Pantalla;
         }
         private void VolverMenuPrincipal()
         {
-            FormGrid.Children.Clear();
+            FormGrid.Content = null;
             Pantalla = null;
         }
 

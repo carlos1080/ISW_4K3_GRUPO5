@@ -9,10 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Images\card.png" />
     <None Remove="Resources\Images\coinUSD.png" />
     <None Remove="Resources\Images\MainMenu.png" />
     <None Remove="Resources\Images\Publish.png" />
     <None Remove="Resources\Images\TrumpTruck.ico" />
+    <None Remove="Resources\Images\user.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,6 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\Images\card.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\Images\CoinUSD.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
@@ -30,6 +35,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Images\TrumpTruck.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\User.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

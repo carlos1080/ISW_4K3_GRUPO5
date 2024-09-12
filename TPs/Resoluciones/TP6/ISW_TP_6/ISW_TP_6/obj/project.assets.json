@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
+      "projectUniqueName": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
       "projectName": "ISW_TP_6",
-      "projectPath": "D:\\Proyectos\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
+      "projectPath": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
       "packagesPath": "C:\\Users\\grber\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\ISW_TP_6\\ISW_TP_6\\obj\\",
+      "outputPath": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grber\\AppData\\Roaming\\NuGet\\NuGet.Config",

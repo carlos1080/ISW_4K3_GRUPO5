@@ -7,7 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Vistas\MobileAceptarCotizacion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Vistas\PantallaAceptarCotizacion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\TarjetasWindows.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,7 +24,13 @@
     <Page Update="ISWDictionary.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Vistas\MobileAceptarCotizacion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Vistas\PantallaAceptarCotizacion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Vistas\TarjetasWindows.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
