@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ISW_TP_6.Vistas" 
              xmlns:entities="clr-namespace:ISW_TP_6.Entities" d:DataContext="{d:DesignInstance Type=entities:StarDrawer}"
              mc:Ignorable="d" 
-             Height="1143"  Width="360"
+             Height="1143"  Width="360" FontFamily="Microsoft Sans Serif" 
              Background="#FFEBF4F6" Loaded="AceptarUserControlLoaded">
 
     <Grid x:Name="MainView" Margin="0" >

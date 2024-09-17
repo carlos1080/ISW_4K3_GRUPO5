@@ -14,8 +14,8 @@
                 <RowDefinition Height="103*"/>
                 <RowDefinition Height="257*"/>
             </Grid.RowDefinitions>
-            <Grid x:Name="TitleGrid" Background="#03045E">
-                <Label FontFamily="Microsoft Sans Serif" x:Name="TitleLabel" Content="JoaquinP99" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Margin="194,10,0,0" Foreground="#FFF7F7F8" Width="156" Height="31"/>
+            <Grid x:Name="TitleGrid" Background="#03045E" MouseEnter="TitleGridMouseEnter">
+                <Label FontFamily="Microsoft Sans Serif" x:Name="TitleLabel" Content="JoaquinP99" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Margin="194,10,0,0" Foreground="#FFF7F7F8" Width="156" Height="40"/>
                 <Button 
                     x:Name="BotonAceptarCotizacion"
                     Style="{DynamicResource HalfRoundButtonContract}"
@@ -50,6 +50,7 @@
                 Style="{DynamicResource HalfRoundButtonContract}"
                 HorizontalAlignment="Center" 
                 Margin="0,145,0,0"
+                FontFamily="Microsoft Sans Serif" 
                 VerticalAlignment="Top" 
                 Height="40" Width="290" Click="BotonMenuPrincipalClick" >
                     <Grid Width="280" Height="39">
@@ -73,10 +74,11 @@
                     </Grid>
                 </Button>
                 <Button 
-                    x:Name="BotonAceptarCotizacion_Copy1"
+                    x:Name="BotonPublicarEnvio"
                     Style="{DynamicResource HalfRoundButtonContract}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Top" 
+                    FontFamily="Microsoft Sans Serif" 
                     Height="40" Width="290" Click="BotonPublicarEnvioClick" Margin="0,100,0,0" >
                     <Grid Width="280" Height="30">
                         <Grid.ColumnDefinitions>
@@ -103,6 +105,34 @@
                     <Image x:Name="ImagenUsuario" Source="/Resources/Images/User.png" Height="22" Width="22">
 
                     </Image>
+                </Button>
+                <Button 
+                    x:Name="BotonNotificacion"
+                    Style="{DynamicResource HalfRoundButtonContract}"
+                    HorizontalAlignment="Center" 
+                    Visibility="Collapsed"
+                    Margin="0,5,0,0"
+                    VerticalAlignment="Top" 
+                    Height="45" Width="340" Background="White">
+                    <Grid Width="329" Height="35">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="49*"/>
+                            <ColumnDefinition Width="173*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            x:Name="LabelNotificacion"
+                            Width="257"
+                            FontFamily="Microsoft Sans Serif"
+                            HorizontalContentAlignment="Center"
+                            VerticalContentAlignment="Top"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Content="Notificacion Enviada con exito&#xD;&#xA;a&#xD;&#xA;a"
+                            
+                            IsTabStop="False" Height="35" Grid.Column="1" Padding="0,0,0,0" Background="{x:Null}" FontSize="10"
+                             />
+                        <Image x:Name="ImagenNotificacion" Source="/Resources/Images/TrumpTruck.ico" Margin="14,2,13,0"/>
+                    </Grid>
                 </Button>
             </Grid>
             <ScrollViewer Name="FormGrid" Grid.Row="1" Margin="0,5,0,0" VerticalScrollBarVisibility="Hidden"/>

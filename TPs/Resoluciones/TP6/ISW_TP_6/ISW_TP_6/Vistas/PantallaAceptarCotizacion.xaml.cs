@@ -19,12 +19,14 @@ namespace ISW_TP_6.Vistas
         private PedidoEnvio PedidoSeleccionado = new();
         private List<Tarjeta> TarjetasValidas = new();
         private StarDrawer _starDrawer;
+        private MainWindow Main;
 
-        public PantallaAceptarCotizacion()
+        public PantallaAceptarCotizacion(MainWindow main)
         {
             InitializeComponent();
             _starDrawer = new StarDrawer { Rating = 3 };
             this.DataContext = _starDrawer;
+            Main=main;
         }
 
         private void AceptarUserControlLoaded(object sender, RoutedEventArgs e)
@@ -109,6 +111,7 @@ namespace ISW_TP_6.Vistas
         {
             if(GrillaCotizaciones.SelectedIndex != -1)
             {
+                LimpiarTodo();
                 HabilitarMetodos(true);
                 int idSeleecionado = int.Parse(((DataView)GrillaCotizaciones.ItemsSource).Table?.Rows[GrillaCotizaciones.SelectedIndex][0].ToString()??"0");
                 CotizacionSeleccionada = ListadoCotizaciones.Find(x=>x.Id== idSeleecionado)??new();
@@ -179,12 +182,33 @@ namespace ISW_TP_6.Vistas
                     Random random = new Random();
                     string numeroDePago = random.Next(2000, 5000).ToString() + random.Next(10, 99).ToString();
 
-                    MessageBox.Show($"EXITO: El pedido de envio \n paso a Confirmado.\n Su nro de Pago es: {numeroDePago}", "ATENCION", MessageBoxButton.OK, MessageBoxImage.Information);
+                    int index = MetodosPagoDesplegable.SelectedIndex;
+                    string metodo = CotizacionSeleccionada.FormasHabilitadas[index].Nombre;
+                    string[] metodos = metodo.Split("Tarjeta");
+
+                    string msg = $"EXITO: El pedido de envio \npaso a Confirmado. Notificando Usuario.";
+                    if (metodos.Length > 1)
+                    {
+                        msg += $"\n Su nro de Pago es: {numeroDePago}";
+                    }
+
+                    MessageBox.Show(msg, "ATENCION", MessageBoxButton.OK, MessageBoxImage.Information);
                     LimpiarTodo();
 
-                    // TODO: Send an email to the user or the transportist ??
-                    EmailSender emailSender = new EmailSender("smtp.gmail.com", 587, true, "tomastrangist@gmail.com", "ykck lpst zrwo tmtm");
-                    emailSender.SendEmail("83296@sistemas.frc.utn.edu.ar", "Confirmacion de Pago", $"Su pedido de envio ha sido confirmado.\n Su nro de Pago es: {numeroDePago}");
+                    string[] splitNombre = CotizacionSeleccionada.Transp.NombreCompleto.Split(' ');
+
+                    string userName = splitNombre[0] + splitNombre[1][0] + splitNombre[1][1] + CotizacionSeleccionada.Transp.NumeroDocumento.ToString()[0];
+                    msg = "Envio de las notificaciones exitoso!\nEmail enviado a: " + CotizacionSeleccionada.Transp.Email 
+                        +".\nY le enviamos una notificacion al usuario: "+ userName;
+
+
+                    Main.MostrarNotificacion(msg);
+
+                    // TO DO: Send an email to the user or the transportist ??
+                    //    EmailSender emailSender = new EmailSender("smtp.gmail.com", 587, true, "tomastrangist@gmail.com", "ykck lpst zrwo tmtm");
+                    //    emailSender.SendEmail("83296@sistemas.frc.utn.edu.ar", "Confirmacion de Pago", $"Su pedido de envio ha sido confirmado.\n Su nro de Pago es: {numeroDePago}");
+                    //
+
                 }
             }
             else MessageBox.Show("ERROR: El Pedido esta en \n estado Confirmado", "ERROR",MessageBoxButton.OK,MessageBoxImage.Error);
@@ -262,8 +286,8 @@ namespace ISW_TP_6.Vistas
             FormasDePago f4 = new("Contado Contra Entrega", true);
 
             Transportista trans1 = new(0,"Marcelo Franco Cuebruno","Pasaporte",11235813,5,"Fiat Saveiro", "83296@sistemas.frc.utn.edu.ar");
-            Transportista trans2 = new(1, "Genaro 'Rafita' Bergesio", "DNI", 55122224, 2, "Peugeot 205", "83464@sistemas.frc.utn.edu.ar");
-            Transportista trans3 = new(2, "Octavio 'Bocta' Cavalleris", "DNI", 22555224, 4, "Fiat 600", "90052@sistemas.frc.utn.edu.ar");
+            Transportista trans2 = new(1, "Genaro Bergesio", "DNI", 55122224, 2, "Peugeot 205", "83464@sistemas.frc.utn.edu.ar");
+            Transportista trans3 = new(2, "Octavio Cavalleris", "DNI", 22555224, 4, "Fiat 600", "90052@sistemas.frc.utn.edu.ar");
             Transportista trans4 = new(3, "Tomas Agustin Lindo", "Libreta de Enrolamiento", 22364, 3, "Audi A4", "90080@sistemas.frc.utn.edu.ar");
             Transportista trans5 = new(4, "Ignacio Martin", "DNI", 1522364, 3, "Toyota Corolla", "83464@sistemas.frc.utn.edu.ar");
 

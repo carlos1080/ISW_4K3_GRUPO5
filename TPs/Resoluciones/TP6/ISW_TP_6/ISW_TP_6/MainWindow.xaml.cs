@@ -18,6 +18,7 @@ namespace ISW_TP_6
         public MainWindow()
         {
             InitializeComponent();
+            CerrarNotificacion();
         }
         #endregion
 
@@ -27,12 +28,13 @@ namespace ISW_TP_6
         private void BotonMenuPrincipalClick(object sender, RoutedEventArgs e) => VolverMenuPrincipal();
 
         private void BotonPublicarEnvioClick(object sender, RoutedEventArgs e) => UserNoImplementada();
+        private void TitleGridMouseEnter(object sender, System.Windows.Input.MouseEventArgs e) => CerrarNotificacion();
         #endregion
 
         #region Capa Logica
         private void HabilitarPantallaCotizacion()
         {
-            Pantalla = new PantallaAceptarCotizacion();
+            Pantalla = new PantallaAceptarCotizacion(this);
             FormGrid.Content = null;
             FormGrid.Content = Pantalla;
         }
@@ -41,7 +43,15 @@ namespace ISW_TP_6
             FormGrid.Content = null;
             Pantalla = null;
         }
-
+        public void MostrarNotificacion(string mensaje)
+        {
+            BotonNotificacion.Visibility = Visibility.Visible;
+            LabelNotificacion.Content = mensaje;
+        }
+        private void CerrarNotificacion()
+        {
+            BotonNotificacion.Visibility= Visibility.Collapsed;
+        }
         private void UserNoImplementada()=>
             MessageBox.Show("ATENCION: Esta funcionalidad no esta implementada", "Atencion", MessageBoxButton.OK, MessageBoxImage.Information);
         #endregion
