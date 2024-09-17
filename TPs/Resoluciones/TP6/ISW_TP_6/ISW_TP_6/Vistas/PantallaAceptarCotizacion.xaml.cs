@@ -18,10 +18,13 @@ namespace ISW_TP_6.Vistas
         private Cotizacion CotizacionSeleccionada = new();
         private PedidoEnvio PedidoSeleccionado = new();
         private List<Tarjeta> TarjetasValidas = new();
+        private StarDrawer _starDrawer;
 
         public PantallaAceptarCotizacion()
         {
             InitializeComponent();
+            _starDrawer = new StarDrawer { Rating = 3 };
+            this.DataContext = _starDrawer;
         }
 
         private void AceptarUserControlLoaded(object sender, RoutedEventArgs e)
@@ -115,9 +118,11 @@ namespace ISW_TP_6.Vistas
                 TransTextbox.Text = CotizacionSeleccionada.Transp.NombreCompleto;
                 NroCotizacionLabel.Content = CotizacionSeleccionada.Id.ToString();
                 NroPedidoLabel.Content = PedidoSeleccionado.Id;
-                LabelClasificacion.Content = CotizacionSeleccionada.Transp.Calificacion + "/5";
                 TextBoxRetiro.Text = CotizacionSeleccionada.FechaRetiro.ToShortDateString();
                 TextBoxEntrega.Text= CotizacionSeleccionada.FechaEntrega.ToShortDateString();
+                _starDrawer.Rating = CotizacionSeleccionada.Transp.Calificacion;       
+                this.DataContext = null;  
+                this.DataContext = _starDrawer;  
 
                 if (CotizacionSeleccionada.FormasHabilitadas.Count > 0)
                 {
@@ -159,18 +164,32 @@ namespace ISW_TP_6.Vistas
         }
         private void AceptarCotizacion()
         {
+            // No payment method selected, show an error message
+            if (MetodosPagoDesplegable.SelectedIndex == -1) {
+                MessageBox.Show("ERROR: Debe seleccionar una Forma de Pago.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return; // Stop the process
+            }
+
             //Verifica que el pedido este en estado pendiente
             if (PedidoSeleccionado.Estado == "Pendiente")
             {
                 if (VerificarPago())
                 {
                     PedidoSeleccionado.Estado = "Confirmado";
-                    MessageBox.Show("EXITO: El pedido de envio \n paso a Confirmado. ", "ATENCION", MessageBoxButton.OK, MessageBoxImage.Information);
+                    Random random = new Random();
+                    string numeroDePago = random.Next(2000, 5000).ToString() + random.Next(10, 99).ToString();
+
+                    MessageBox.Show($"EXITO: El pedido de envio \n paso a Confirmado.\n Su nro de Pago es: {numeroDePago}", "ATENCION", MessageBoxButton.OK, MessageBoxImage.Information);
                     LimpiarTodo();
+
+                    // TODO: Send an email to the user or the transportist ??
+                    EmailSender emailSender = new EmailSender("smtp.gmail.com", 587, true, "tomastrangist@gmail.com", "ykck lpst zrwo tmtm");
+                    emailSender.SendEmail("83296@sistemas.frc.utn.edu.ar", "Confirmacion de Pago", $"Su pedido de envio ha sido confirmado.\n Su nro de Pago es: {numeroDePago}");
                 }
             }
             else MessageBox.Show("ERROR: El Pedido esta en \n estado Confirmado", "ERROR",MessageBoxButton.OK,MessageBoxImage.Error);
         }
+
         private void LimpiarTodo()
         {
             Generics.CleanFields(PayMethodsGrid);

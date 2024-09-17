@@ -7,15 +7,24 @@
         mc:Ignorable="d"
         Title="Tarjetas Disponibles" Height="300" Width="300" WindowStartupLocation="CenterScreen" ShowInTaskbar="False" WindowStyle="None" Background="#FFEDF1F1" Loaded="VentanaTarjeasLoaded">
     <Viewbox x:Name="MainView" Stretch="Fill">
-        <Grid x:Name="MainGrid" Height="300" Width="300" >
+        <Grid x:Name="MainGrid" Height="300" Width="300" Background="#FFCAF0F8" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="7*"/>
                 <RowDefinition Height="53*"/>
             </Grid.RowDefinitions>
             <Button x:Name="BotonCerrar" Content="X" HorizontalAlignment="Left" Margin="268,0,0,0" VerticalAlignment="Top" Height="32" Width="32" FontWeight="Bold" FontSize="20" Background="{x:Null}" BorderBrush="{x:Null}" Click="BotonCerrarClick"/>
-            <DataGrid x:Name="TarjetasDataGrid" ItemsSource="{Binding}" Margin="10,34,10,10" Grid.Row="1" IsReadOnly="True" CanUserAddRows="False" MouseDoubleClick="TarjetasDataGridMouseDoubleClick"/>
+            <DataGrid x:Name="TarjetasDataGrid" ItemsSource="{Binding}" Margin="10,34,10,10" Grid.Row="1" 
+                      IsReadOnly="True" 
+                      CanUserAddRows="False" 
+                      MouseDoubleClick="TarjetasDataGridMouseDoubleClick">
+                <!-- Define header style -->
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="FontWeight" Value="Bold"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+            </DataGrid>
             <Label x:Name="LabelTitulo" Content="Tus Tarjetas" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Grid.Row="1"/>
-
         </Grid>
     </Viewbox>
 </Window>

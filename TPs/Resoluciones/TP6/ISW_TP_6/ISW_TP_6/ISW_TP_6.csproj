@@ -11,6 +11,8 @@
   <ItemGroup>
     <None Remove="Resources\Images\card.png" />
     <None Remove="Resources\Images\coinUSD.png" />
+    <None Remove="Resources\Images\EmptyStar.png" />
+    <None Remove="Resources\Images\FilledStar.png" />
     <None Remove="Resources\Images\MainMenu.png" />
     <None Remove="Resources\Images\Publish.png" />
     <None Remove="Resources\Images\TrumpTruck.ico" />
@@ -22,12 +24,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\Images\card.png">
+    <Resource Include="Resources\Images\Card.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\Images\CoinUSD.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Resources\Images\EmptyStar.png" />
+    <Resource Include="Resources\Images\FilledStar.png" />
     <Resource Include="Resources\Images\MainMenu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
