@@ -41,7 +41,7 @@ namespace ISW_TP_6.Vistas
             CargarDataGrid();
             CargarTarjetas();
         }
-        private void TarjetaNumeroTextBoxTextChanged(object sender, TextChangedEventArgs e) => Generics.MaskedNumber((TextBox)sender, 13);
+        private void TarjetaNumeroTextBoxTextChanged(object sender, TextChangedEventArgs e) => Generics.MaskedNumber((TextBox)sender, 16);
         private void TarjetaPinTextBoxTextChanged(object sender, TextChangedEventArgs e) => Generics.MaskedNumber((TextBox)sender, 4);
         private void GrillaCotizacionesMouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e) => SeleccionarCotizacion();
         private void MetodosPagoDesplegableSelectionChanged(object sender, SelectionChangedEventArgs e) => VerificarMetodo();
@@ -52,7 +52,7 @@ namespace ISW_TP_6.Vistas
         {
             TarjetasWindows tarjetasDisponibles = new(TarjetasValidas);
             tarjetasDisponibles.ShowDialog();
-            if (tarjetasDisponibles.TarjetaSeleccionada.Numero != 0) AutocompletarCampos(tarjetasDisponibles.TarjetaSeleccionada);
+            if (tarjetasDisponibles.TarjetaSeleccionada.Numero != "0") AutocompletarCampos(tarjetasDisponibles.TarjetaSeleccionada);
         }
         private void AutocompletarCampos(Tarjeta tar)
         {
@@ -205,8 +205,8 @@ namespace ISW_TP_6.Vistas
                     Main.MostrarNotificacion(msg);
 
                     // TO DO: Send an email to the user or the transportist ??
-                    //    EmailSender emailSender = new EmailSender("smtp.gmail.com", 587, true, "tomastrangist@gmail.com", "ykck lpst zrwo tmtm");
-                    //    emailSender.SendEmail("83296@sistemas.frc.utn.edu.ar", "Confirmacion de Pago", $"Su pedido de envio ha sido confirmado.\n Su nro de Pago es: {numeroDePago}");
+                    EmailSender emailSender = new EmailSender("smtp.gmail.com", 587, true, "tomastrangist@gmail.com", "ykck lpst zrwo tmtm");
+                    emailSender.SendEmail("agustinliendo312@gmail.com", "Confirmacion de Pago", $"Su pedido de envio ha sido confirmado.\n Su nro de Pago es: {numeroDePago}");
                     //
 
                 }
@@ -331,7 +331,7 @@ namespace ISW_TP_6.Vistas
         {
             Tarjeta t1 = new() { 
                 NombreCompleto = "Genaro Rafael Bergesio",
-                Numero = 55554444,
+                Numero = "4555444455554444",
                 Pin = 4455,
                 NumeroDocumento=5555555,
                 Saldo= 122555.5,
@@ -341,7 +341,7 @@ namespace ISW_TP_6.Vistas
             Tarjeta t2 = new()
             {
                 NombreCompleto = "Ignacion Nayi",
-                Numero = 11112222,
+                Numero = "1122998811229988",
                 Pin = 3333,
                 NumeroDocumento = 2222222,
                 Saldo = 235.5,
@@ -351,7 +351,7 @@ namespace ISW_TP_6.Vistas
             Tarjeta t3 = new()
             {
                 NombreCompleto = "Pablito Lescano",
-                Numero = 9666668,
+                Numero = "5889355258893552",
                 Pin = 1111,
                 NumeroDocumento = 788896,
                 Saldo = 4225555.5,
@@ -361,7 +361,7 @@ namespace ISW_TP_6.Vistas
             Tarjeta t4 = new()
             {
                 NombreCompleto = "Matias Moreno",
-                Numero = 3333441,
+                Numero = "3333441233334412",
                 Pin = 6666,
                 NumeroDocumento = 123123,
                 Saldo = 5568.5,

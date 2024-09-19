@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\grber\\.nuget\\packages\\": {}
+    "C:\\Users\\agust\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
+      "projectUniqueName": "D:\\Documentos\\GitHub\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
       "projectName": "ISW_TP_6",
-      "projectPath": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
-      "packagesPath": "C:\\Users\\grber\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\obj\\",
+      "projectPath": "D:\\Documentos\\GitHub\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
+      "packagesPath": "C:\\Users\\agust\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\GitHub\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\grber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\agust\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -56,6 +61,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.33, 6.0.33]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -64,7 +87,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

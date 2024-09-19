@@ -4,7 +4,7 @@ namespace ISW_TP_6.Entities
 {
     public class Tarjeta
     {
-        public int Numero { get; set; }
+        public string Numero { get; set; }
         public int Pin { get; set; }
         public string NombreCompleto { get; set; }
         public string TipoDocumento { get; set; }
@@ -14,7 +14,7 @@ namespace ISW_TP_6.Entities
 
         public Tarjeta() 
         {
-            Numero = 0;
+            Numero = "0";
             Pin = 0;
             NombreCompleto = "";
             TipoDocumento = "";
@@ -23,7 +23,7 @@ namespace ISW_TP_6.Entities
             Tipo = "";
         }
 
-        public Tarjeta(int numero, int pin, string nombreCompleto, string tipoDocumento, int numeroDocumento,double saldo,string tipo)
+        public Tarjeta(string numero, int pin, string nombreCompleto, string tipoDocumento, int numeroDocumento,double saldo,string tipo)
         {
             Numero = numero;
             Pin = pin;

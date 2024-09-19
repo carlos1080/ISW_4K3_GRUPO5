@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rfq3kuF/SGHz/olOZRP/Zl7VJYV81FCqoC70CANi1yUomGvwWbGQf6LSXWDgZv4XhRLnGVVFQBaRO2Qk31xZ0A==",
+  "dgSpecHash": "o6H2oyG7Cwk=",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\RepoISW\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Documentos\\GitHub\\ISW_4K3_GRUPO5\\TPs\\Resoluciones\\TP6\\ISW_TP_6\\ISW_TP_6\\ISW_TP_6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\agust\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\agust\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\agust\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\agust\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }
