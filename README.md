@@ -101,6 +101,8 @@
         ├── TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt
         └── TP6
             ├── ISW_TP_6
+            │   ├── Buenas_Practicas_TP_6.pdf
+            │   ├── Enunciado_US_TP_6.pdf
             │   ├── ISW_TP_6
             │   │   ├── Adapters
             │   │   │   └── Generics.cs
@@ -683,7 +685,7 @@
             │   │       │       ├── ISW_TP_6_gn1axw1f_wpftmp.sourcelink.json
             │   │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.AssemblyInfo.cs
             │   │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.AssemblyInfoInputs.cache
-            │   │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
+                │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
             │   │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.GlobalUsings.g.cs
             │   │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.assets.cache
             │   │       │       ├── ISW_TP_6_gozbrbqx_wpftmp.csproj.BuildWithSkipAnalyzers
@@ -763,7 +765,7 @@
             │   │       │       ├── ISW_TP_6_hi1oxhoz_wpftmp.csproj.BuildWithSkipAnalyzers
             │   │       │       ├── ISW_TP_6_hi1oxhoz_wpftmp.sourcelink.json
             │   │       │       ├── ISW_TP_6_hic5lt21_wpftmp.AssemblyInfo.cs
-            │   │       │       ├── ISW_TP_6_hic5lt21_wpftmp.AssemblyInfoInputs.cache
+            │   │        �       ├── ISW_TP_6_hic5lt21_wpftmp.AssemblyInfoInputs.cache
             │   │       │       ├── ISW_TP_6_hic5lt21_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
             │   │       │       ├── ISW_TP_6_hic5lt21_wpftmp.GlobalUsings.g.cs
             │   │       │       ├── ISW_TP_6_hic5lt21_wpftmp.assets.cache
@@ -804,7 +806,7 @@
             │   │       │       ├── ISW_TP_6_i3qdit0d_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
             │   │       │       ├── ISW_TP_6_i3qdit0d_wpftmp.GlobalUsings.g.cs
             │   │       │       ├── ISW_TP_6_i3qdit0d_wpftmp.assets.cache
-            │   │       │       ├ �─ ISW_TP_6_i3qdit0d_wpftmp.csproj.BuildWithSkipAnalyzers
+            │   │       │       ├── ISW_TP_6_i3qdit0d_wpftmp.csproj.BuildWithSkipAnalyzers
             │   │       │       ├── ISW_TP_6_ia1ratwe_wpftmp.AssemblyInfo.cs
             │   │       │       ├── ISW_TP_6_ia1ratwe_wpftmp.AssemblyInfoInputs.cache
             │   │       │       ├── ISW_TP_6_ia1ratwe_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
@@ -923,7 +925,7 @@
             │   │       │       ├── ISW_TP_6_leknamex_wpftmp.AssemblyInfo.cs
             │   │       │       ├── ISW_TP_6_leknamex_wpftmp.AssemblyInfoInputs.cache
             │   │       │       ├── ISW_TP_6_leknamex_wpftmp.GeneratedMSBuildEditorConfig.editorconfig
-            │   │       │       ├── ISW_TP_6_leknamex_wpftmp.GlobalUsings.g.cs
+            │   │       │        ── ISW_TP_6_leknamex_wpftmp.GlobalUsings.g.cs
             │   │       │       ├── ISW_TP_6_leknamex_wpftmp.assets.cache
             │   │       │       ├── ISW_TP_6_lremaom5_wpftmp.AssemblyInfo.cs
             │   │       │       ├── ISW_TP_6_lremaom5_wpftmp.AssemblyInfoInputs.cache
@@ -1659,7 +1661,7 @@
             │   │       ├── ISW_TP_6_p11oggak_wpftmp.csproj.nuget.g.props
             │   │       ├── ISW_TP_6_p11oggak_wpftmp.csproj.nuget.g.targets
             │   │       ├── ISW_TP_6_rwvtidmc_wpftmp.csproj.nuget.dgspec.json
-                │       ├── ISW_TP_6_rwvtidmc_wpftmp.csproj.nuget.g.props
+            │   │       ├── ISW_TP_6_rwvtidmc_wpftmp.csproj.nuget.g.props
             │   │       ├── ISW_TP_6_rwvtidmc_wpftmp.csproj.nuget.g.targets
             │   │       ├── ISW_TP_6_upq2r3oq_wpftmp.csproj.nuget.dgspec.json
             │   │       ├── ISW_TP_6_upq2r3oq_wpftmp.csproj.nuget.g.props
