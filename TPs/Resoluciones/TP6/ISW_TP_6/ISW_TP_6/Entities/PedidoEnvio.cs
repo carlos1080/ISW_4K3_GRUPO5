@@ -16,6 +16,7 @@ namespace ISW_TP_6.Entities
         public string Estado { get; set; }
         public List<Cotizacion> Cotizaciones { get; set; }
         public int? NumeroPago { get; set; }
+        public string Carga { get; set; }
         public PedidoEnvio() 
         {
             Id = 0;
@@ -26,9 +27,13 @@ namespace ISW_TP_6.Entities
             Estado = "";
             Cotizaciones = new();
             NumeroPago = null;
+            Carga = "";
         }
 
-        public PedidoEnvio(int id, string ubicacionRetiro, string ubicacionLlegada, DateTime fechaInicio, DateTime fechaLimite, string estado, List<Cotizacion> cotizaciones, int? numeroPago)
+        public PedidoEnvio(int id, string ubicacionRetiro, 
+            string ubicacionLlegada, DateTime fechaInicio,
+            DateTime fechaLimite, string estado, List<Cotizacion> cotizaciones, 
+            int? numeroPago,string carga)
         {
             Id = id;
             UbicacionRetiro = ubicacionRetiro;
@@ -38,6 +43,7 @@ namespace ISW_TP_6.Entities
             Estado = estado;
             Cotizaciones = cotizaciones;
             NumeroPago = numeroPago;
+            Carga = carga;
         }
 
     }
