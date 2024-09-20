@@ -36,7 +36,11 @@ Recordamos que SCM es una actividad paraguas, transversal a todo el proyecto, re
 Es importante aclarar que como grupo consideramos que la riqueza de este trabajo práctico es mantener en uso y en constante actualizacion el repositorio, ya que no tendría sentido realizar un commit cada uno y dar por finalizado la entrega.
 
 
-## Reglas de Nombrado
+## Link del Repositorio:
+https://github.com/carlos1080/ISW_4K3_GRUPO5
+
+
+## Reglas de Nombrado:
 
 | Item de configuración | Regla de nombrado | Ejemplo | Ubicación Física |
 |-----------|-----------|-----------|-----------|
@@ -48,7 +52,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 | Enunciados | TP\<N>_Enunciado_2024.pdf | TP1_Enunciado_2024.pdf | /TPs/Enunciados|
 | Resoluciones | TP\<N>_\<Tema>_RES_G5_2024.\<ext>  | TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt | /TPs/Resoluciones|
 
-## Glosario
+## Glosario:
 
 | Sigla | Significado |
 |--|--|
@@ -60,25 +64,9 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 | \<extImg> | Etensiones de archivos de imágenes, tipicamente como jpg, png, jpeg... |
 | \<ext> | Etensiones de archivos, tipicamente como .txt, .cs, .sln, .sql ... |
 
-## Baseline:
-- Se utilizan etiquetas para marcar las baselines
+## Criterios de Baseline:
+Se tomó como criterio de creación de la línea base las fechas correspondientes a los exámenes parciales de la asignatura y cada una de ellas contendrá todos los archivos existentes en la rama “master” al momento de crearla.
 
-- No debemos confundir con la versión del producto
-
-- Entonces una línea base es una configuración que ha sido revisada formalmente y sobre la que se ha llegado un acuerdo
-
-- Sirve como base para desarrollos posteriores y puede cambiarse sólo a través  de un procedimiento formal de control de cambios
-
-- Permiten ir atrás en el tiempo y reproducir el entorno de desarrollo en un momento dado del proyecto
-
-- Las líneas base puede ser:
-
-  - De especificación DE (Requerimientos, Diseño)
-  - De productos que han pasado por un control de calidad definido previamente
-
-**¿En qué nos basamos como grupo para establecer nuestra baseline?**
-
-Antes de cada entrega formal de un repositorio, en esta caso una entrega de trabajo práctico, en la que debemos dejar  marcado de alguna manera nuestro prograso actual, para luego en otra entrega de otro trabajo practico generar otra baseline y así poder comparar el proyecto en dos instancias de tiempo distintas.
 
 
 
