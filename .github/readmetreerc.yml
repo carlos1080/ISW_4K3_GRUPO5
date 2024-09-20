@@ -5,3 +5,4 @@ include:
   - "."
 exclude:
   - node_modules
+maxDepth: 3
