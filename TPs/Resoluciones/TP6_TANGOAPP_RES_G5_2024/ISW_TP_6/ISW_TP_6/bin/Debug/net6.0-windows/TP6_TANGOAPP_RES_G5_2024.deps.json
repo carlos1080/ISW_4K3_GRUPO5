@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TP6_TANGOAPP_RES_G5_2024/1.0.0": {
+        "runtime": {
+          "TP6_TANGOAPP_RES_G5_2024.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP6_TANGOAPP_RES_G5_2024/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
