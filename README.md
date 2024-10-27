@@ -58,7 +58,6 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
 |-----------|-----------|-----------|-----------|
 | Bibliografía | Biblio_\<N>_\<NombreBiblio>.pdf | Biblio_U1_Cynefin Mini book.pdf | /Bibliografia/U\<N> |
 | Filminas | PPT_\<N>_\<Tema>.pdf | filminas_clase_1_SCM.pdf | /Filminas |
-| Imagenes | IMG_\<Categoria>_\<NombreImagen>.\<extImg> | ISW_encabezado.png | /Imagenes |
 | NotasDeClase | NC_\<Fecha>_\<DiaCursado>_\<N>.\<extImg> | NC_0823_V_1.jpeg | /NotasDeClase|
 | Guias | Guía_\<Descripción>.pdf | Guia_ISW_Enunciados TP evaluables 2024 2doCuat.pdf| /TPs/Guias|
 | Enunciados | TP\<N>_Enunciado_2024.pdf | TP1_Enunciado_2024.pdf | /TPs/Enunciados|
@@ -73,7 +72,6 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
 | \<NombreBiblio>  | Título de la bibliografía |
 | \<Fecha> | Fecha en el formato mm-dd en el que fue tomado el elemento|
 | \<DiaCursado> | Día en el formato (M/V) en el que fue tomado el elemento, donde M y V referencian los días de cursado Miércoles y Viernes |
-| \<extImg> | Etensiones de archivos de imágenes, tipicamente como jpg, png, jpeg... |
 | \<ext> | Etensiones de archivos, tipicamente como .txt, .cs, .sln, .sql ... |
 
 ## Criterios de Baseline:
