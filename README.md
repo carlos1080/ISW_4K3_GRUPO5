@@ -1,10 +1,6 @@
 <div>
   <h1 align="center">Universidad Tecnologica Nacional</h1>
   <h2 align="center">Ingeniería y Calidad de Software</h2>
-  <p align="center">
-  <img src="./Imagenes/IMG_UTN_logo.jpg" alt="Logo del Proyecto" width="200">
-  </p>
-
 </div>
 
 ## Año: 2024
