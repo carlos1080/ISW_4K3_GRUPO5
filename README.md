@@ -40,6 +40,17 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 ## Link del Repositorio:
 https://github.com/carlos1080/ISW_4K3_GRUPO5
 
+## Estructura de árbol del repositorio:
+
+├───Bibliografia
+├───Filminas
+├───Imagenes
+├───NotasDeClase
+└───TPs
+    ├───Enunciados
+    ├───Guias
+    └───Resoluciones
+
 
 ## Reglas de Nombrado:
 
