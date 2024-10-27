@@ -41,7 +41,7 @@ Es importante aclarar que como grupo consideramos que la riqueza de este trabajo
 https://github.com/carlos1080/ISW_4K3_GRUPO5
 
 ## Estructura de árbol del repositorio:
-
+```
 ├───Bibliografia
 ├───Filminas
 ├───Imagenes
@@ -50,7 +50,7 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
     ├───Enunciados
     ├───Guias
     └───Resoluciones
-
+```
 
 ## Reglas de Nombrado:
 
