@@ -70,6 +70,7 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
 | \<NombreBiblio>  | Título de la bibliografía |
 | \<TP> | Trabajo Práctico |
 | \<TPC> | Trabajo Práctico Conceptual |
+| \<RES> | Resolución |
 | \<Fecha> | Fecha en el formato mm-dd en el que fue tomado el elemento|
 | \<DiaCursado> | Día en el formato (M/V) en el que fue tomado el elemento, donde M y V referencian los días de cursado Miércoles y Viernes |
 | \<extImg> | Etensiones de archivos, tipicamente como png, jpg |
