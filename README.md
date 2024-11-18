@@ -46,6 +46,7 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
     ├───Enunciados
     ├───Guias
     └───Resoluciones
+        └───TP Conceptuales
 ```
 
 ## Reglas de Nombrado:
@@ -57,7 +58,7 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
 | NotasDeClase | NC_\<Fecha>_\<DiaCursado>_\<N>.\<extImg> | NC_0823_V_1.jpeg | /NotasDeClase|
 | Guias | Guía_\<Descripción>.pdf | Guia_ISW_Enunciados TP evaluables 2024 2doCuat.pdf| /TPs/Guias|
 | Enunciados | TP\<N>_Enunciado_2024.pdf | TP1_Enunciado_2024.pdf | /TPs/Enunciados|
-| Resoluciones | TP\<N>_\<Tema>_RES_G5_2024.\<ext>  | TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt | /TPs/Resoluciones|
+| Resoluciones | TP\<N>_\<Tema>_RES_G5_2024.pdf  | TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt | /TPs/Resoluciones|
 
 ## Glosario:
 
@@ -66,9 +67,11 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
 | \<N> | Número de item (1,2,3…) |
 | \<Tema> | Tema de clase o trabajo práctico dado, como aparece en la modalidad académica | 
 | \<NombreBiblio>  | Título de la bibliografía |
+| \<TP> | Trabajo Práctico |
+| \<TPC> | Trabajo Práctico Conceptual |
 | \<Fecha> | Fecha en el formato mm-dd en el que fue tomado el elemento|
 | \<DiaCursado> | Día en el formato (M/V) en el que fue tomado el elemento, donde M y V referencian los días de cursado Miércoles y Viernes |
-| \<ext> | Etensiones de archivos, tipicamente como .txt, .cs, .sln, .sql ... |
+| \<extImg> | Etensiones de archivos, tipicamente como png, jpg |
 
 ## Criterios de Baseline:
 Se tomó como criterio de creación de la línea base las fechas correspondientes a los exámenes parciales de la asignatura y cada una de ellas contendrá todos los archivos existentes en la rama “master” al momento de crearla.
