@@ -55,10 +55,11 @@ https://github.com/carlos1080/ISW_4K3_GRUPO5
 |-----------|-----------|-----------|-----------|
 | Bibliografía | Biblio_\<N>_\<NombreBiblio>.pdf | Biblio_U1_Cynefin Mini book.pdf | /Bibliografia/U\<N> |
 | Filminas | PPT_\<N>_\<Tema>.pdf | filminas_clase_1_SCM.pdf | /Filminas |
-| NotasDeClase | NC_\<Fecha>_\<DiaCursado>_\<N>.\<extImg> | NC_0823_V_1.jpeg | /NotasDeClase|
+| NotasDeClase | NC_\<Fecha>_\<DiaCursado>_\<N>.\<extImg> | NC_0823_V_1.png | /NotasDeClase|
 | Guias | Guía_\<Descripción>.pdf | Guia_ISW_Enunciados TP evaluables 2024 2doCuat.pdf| /TPs/Guias|
 | Enunciados | TP\<N>_Enunciado_2024.pdf | TP1_Enunciado_2024.pdf | /TPs/Enunciados|
-| Resoluciones | TP\<N>_\<Tema>_RES_G5_2024.pdf  | TP4_Documento de Gestion de Configuraciones_RES_G5_2024.txt | /TPs/Resoluciones|
+| Resoluciones | TP\<N>_\<Tema>_RES_G5_2024.pdf  | TP4_Documento de Gestion de Configuraciones_RES_G5_2024.pdf | /TPs/Resoluciones|
+| TP Conceptuales | TPC<Tema>_RES_G5_2024.pdf  | TPC_Framework Cynefin_RES_G5_2024.pdf | /TPs/Resoluciones/TP Conceptuales|
 
 ## Glosario:
 
